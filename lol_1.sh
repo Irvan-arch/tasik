@@ -10,6 +10,6 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.93/lolM
 tar -xvzf lolMiner_v1.93_Lin64.tar.gz
 rm .gitignore
 cd 1.37
-wget https://raw.githubusercontent.com/KebonKalapa/ETC/main/set_lol.sh
+wget https://raw.githubusercontent.com/Irvan-arch/tasik/refs/heads/main/lol_1.sh
 chmod +x *.sh
 graftcp ./set_lol.sh
