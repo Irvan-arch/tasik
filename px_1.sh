@@ -1,7 +1,7 @@
 apt -y install git binutils cmake
 
-wget https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
-rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.23.4.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.4.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 source $HOME/.profile
 
@@ -13,7 +13,7 @@ cd
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 184.178.172.28:15294	
+socks5 = 72.10.160.170:2657	
 socks5_username = mikrotik999
 socks5_password = Elibawnos
 END
